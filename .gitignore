@@ -1,0 +1,24 @@
+## Global
+*.log
+*.DS_Store
+
+## Composer
+/vendor/
+
+## Node
+/node_modules/
+
+## Wordpress
+/wordpress/
+/content/plugins/*
+/content/themes/*
+/content/languages/*
+/content/upgrade/*
+/content/uploads/*
+
+## Exceptions
+!/content/plugins/index.php
+!/content/themes/index.php
+
+## Theme
+!/content/themes/floephaan

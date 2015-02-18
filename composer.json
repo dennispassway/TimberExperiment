@@ -1,0 +1,21 @@
+{
+    "name": "dennispassway/TimberExperiment",
+    "description": "An Experiment with Timber Framework",
+    "repositories":[
+        {
+            "type":"composer",
+            "url":"http://wpackagist.org"
+        }
+    ],
+    "require": {
+        "johnpbloch/wordpress": "4.1",
+        "wpackagist-plugin/timber-library":"*"
+    },
+    "extra": {
+    "installer-paths": {
+      "content/plugins/{$name}/": ["type:wordpress-plugin"],
+      "content/mu-plugins/{$name}/": ["type:wordpress-muplugin"],
+      "content/themes/{$name}/": ["type:wordpress-theme"]
+    }
+  }
+}
